@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
@@ -12,7 +12,8 @@ int main() {
     int população, pontos turisticos;
     float área, PIB;
         
-    printf("Insira os dados de duas cartas do Super Trunfo!\n");
+    printf("Bem-vindo ao Jogo Super Trunfo!\n");
+    printf("Vamos começar inserindo os valores de duas cartas.\n);
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
