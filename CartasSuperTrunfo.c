@@ -13,7 +13,7 @@ int main() {
     float área, PIB;
         
     printf("Bem-vindo ao Jogo Super Trunfo!\n");
-    printf("Vamos começar inserindo os valores de duas cartas.\n);
+    printf("Vamos começar inserindo os valores de duas cartas.\n");
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
