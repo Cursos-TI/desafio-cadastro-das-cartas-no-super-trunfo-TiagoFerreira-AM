@@ -68,6 +68,8 @@ int main() {
     printf("PIB: %.2f\n", PIB);
     printf("Número de pontos turísticos: %d\n", pontos_turísticos);
 
+    printf("\n");
+
     printf("Carta 2:\n");
     printf("ESTADO: %c\n", estado_1);
     printf("CÓDIGO DA CARTA: %s\n", código_carta_1);
