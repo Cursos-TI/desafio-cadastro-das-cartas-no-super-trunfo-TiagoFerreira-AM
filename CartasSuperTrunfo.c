@@ -57,6 +57,8 @@ int main() {
     printf("Insira a quantidade de pontos turísticos na cidade e aperte ENTER:\n");
     scanf("%d", &pontos_turísticos_1);
 
+    printf("\n");
+
     printf("Os resultados foram:\n");
     printf("CARTA 1:\n");
     printf("ESTADO: %c\n", estado);
