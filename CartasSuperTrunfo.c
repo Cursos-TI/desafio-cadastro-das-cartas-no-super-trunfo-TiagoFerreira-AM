@@ -16,7 +16,7 @@ int main() {
     scanf("%s", código_carta);
 
     printf("Insira o nome da cidade e aperte ENTER:\n");
-    scanf(" %29[^\n]", nome_cidade); 
+    scanf(" %29[^\n]", nome_cidade); // "%29[^\n] é uma maneira de utilizar o scanf para armazenar nomes compostos.
 
     printf("Insira o número de habitantes da cidade e aperte ENTER:\n");
     scanf("%d", &população);
