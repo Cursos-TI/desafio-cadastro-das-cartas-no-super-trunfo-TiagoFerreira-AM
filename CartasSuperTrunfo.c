@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main() {
 
     char estado, código_carta[5], nome_cidade[30];
