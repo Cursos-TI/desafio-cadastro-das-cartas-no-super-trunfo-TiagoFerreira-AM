@@ -2,11 +2,11 @@
 
 int main() {
 
-    char estado, código_carta[5], nome_cidade[30];
+    char estado, código_carta[5], nome_cidade[30]; //Variáveis usadas na Carta1.
     int população, pontos_turísticos;
     float área, PIB;
 
-    printf("Bem-vindo ao Jogo Super Trunfo!\n");
+    printf("Bem-vindo ao Jogo Super Trunfo!\n"); //Uma breve introdução antes da inserção dos dados da carta.
     printf("Vamos começar inserindo os valores de duas cartas.\n");
 
     printf("Escolha uma letra de 'A' a 'H' (representando um dos oito estados) e aperte ENTER:\n");
@@ -30,7 +30,7 @@ int main() {
     printf("Insira a quantidade de pontos turísticos na cidade e aperte ENTER:\n");
     scanf("%d", &pontos_turísticos);
 
-    char estado_1, código_carta_1[5], nome_cidade_1[30];
+    char estado_1, código_carta_1[5], nome_cidade_1[30]; //Variáveis da segunda carta do jogo.
     int população_1, pontos_turísticos_1;
     float área_1, PIB_1;
 
@@ -59,7 +59,7 @@ int main() {
 
     printf("\n");
 
-    printf("Os resultados foram:\n");
+    printf("Os resultados foram:\n"); //Mostra ao usuário os valores inseridos nas cartas.
     printf("CARTA 1:\n");
     printf("ESTADO: %c\n", estado);
     printf("CÓDIGO DA CARTA: %s\n", código_carta);
